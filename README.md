@@ -1,3 +1,5 @@
+# THIS REPOSITORY IS ARCHIVED BECAUSE INSTEAD OF THIS LIBRARY YOU CAN JUST PRELOAD LIBC (LD_PRELOAD=libc.so.6)
+
 ## Quick start
 Compile with `gcc bypass.so -shared -fPIC -ldl -o bypass.so`. Then run `LD_PRELOAD=$PWD/bypass.so bash`. Any commands executed in this shell will not be logged by snoopy.
 
